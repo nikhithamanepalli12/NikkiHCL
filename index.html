@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HCLTech AI Impact Summit 2026 - Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+    }
+
+    /* Header */ 
+    header {
+      background: linear-gradient(90deg, #1c4fd7, #1bb5a7);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: rgb(178, 196, 211);
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color:rgb(52, 37, 121);
+      font-size: 14px;
+    }
+
+    .contact-btn {
+      padding: 8px 16px;
+      background: #0047bb;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(90deg, #1c4fd7, #1bb5a7);
+      color: white;
+      padding: 60px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 300px;
+    }
+
+    .hero-text {
+      max-width: 30%;
+    }
+
+    .hero-text h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .read-more {
+      display: inline-block;
+      padding: 10px 20px;
+      background: white;
+      color: #0047bb;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero-logo {
+      text-align: center;
+      
+    }
+
+    .hero-logo h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    /* ROI Section */
+    .roi-section {
+      background: #ffffff;
+      padding: 40px;
+      margin: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .roi-section h2 {
+      margin-bottom: 25px;
+      color: #0047bb;
+    }
+
+    .roi-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .roi-card {
+      background: linear-gradient(135deg, #3b5bdb, #22c1c3);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      min-height: 120px;
+    }
+
+    .roi-card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .roi-card p {
+      font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f1f3d;
+      color: white;
+      font-size: 13px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">HCLTech</div>
+    <nav>
+      <a href="#">What We Do</a>
+      <a href="#">Industries</a>
+      <a href="#">Ecosystem</a>
+      <a href="#">Who We Are</a>
+      <a href="#">Resources</a>
+      <a href="#">Careers</a>
+    </nav>
+    <a href="#" class="contact-btn">Contact Us</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>HCLTech at the India AI Impact Summit 2026</h1>
+      <p>New Delhi | Bharat Mandapam | February 16–20 | Hall 4, Booth 4.5</p>
+      <a href="#" class="read-more">Read more →</a>
+    </div>
+    <div class="logo">
+        
+      <img src="https://hcltech.imgix.net/sites/default/files/inline-images/ai-summit-logo.png" alt="AI" style="width: 200px; height: 200px;">
+    </div>
+  </section>
+
+  <!-- ROI Section -->
+  <section class="roi-section">
+    <h2>AI that delivers ROI</h2>
+
+    <div class="roi-cards">
+      <div class="roi-card">
+        <h3>45%</h3>
+        <p>Reduction in app development effort using AI</p>
+      </div>
+
+      <div class="roi-card">
+        <h3>20%</h3>
+        <p>IT Ops MTTR reduction using AI ForceOps</p>
+      </div>
+
+      <div class="roi-card">
+        <h3>$100M+</h3>
+        <p>Operations cost reduction through AI solutions</p>
+      </div>
+
+      <div class="roi-card">
+        <h3>87%</h3>
+        <p>Investigation time reduced using AI surveillance</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 HCLTech Demo Website | For Educational Purpose Only
+  </footer>
+
+</body>
+</html>
